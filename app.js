@@ -30,19 +30,20 @@ function clearDisplay() {
 	document.getElementById('display').firstChild.innerHTML = ""
 }
 
-var buttons = document.getElementsByClassName('button'); 
-	console.log(buttons);
-	for (var i = 0; i < buttons.length; i++){
-		buttons[i].addEventListener("click", getInput);
+var numbers = document.getElementsByClassName('number'); 
+	console.log(numbers);
+	for (var i = 0; i < numbers.length; i++){
+		numbers[i].addEventListener("click", getInput);
 
 	}
 
 var operator = document.getElementsByClassName('op');
 	for (var i = 0; i < operator.length; i++){
-	operator[i].addEventListener("click", storeValue);
+		operator[i].addEventListener("click", storeValue);
 	}
 
 document.getElementById('equals').addEventListener("click", getAnswer);
+
 document.getElementById('clear').addEventListener("click", clearDisplay);
 
 

@@ -1,50 +1,68 @@
+
+*{
+	color:white;
+	font-family: 'Audiowide', cursive; 
+}
+
+
 #display {
-	width:100%;
-	height:20%;
+	width:406px;
+	height:100px;
 	text-align:center;
+	border:solid black 5px;
+	padding-top:30px;
+	background-color: transparent;
+}
+
+h2 {
+	text-align: center;
+
 }
 
 .wrapper {
-	position: relative;
+ height: 620px;
+ width: 416px;
+ border: solid black 2px;
+ margin-left: 33%;
+ background-image: url('http://images.nationalgeographic.com/wpf/media-live/photos/000/576/overrides/space207-trifid-nebula_57668_600x450.jpg');
 }
 
-.button {
-	width:100px;
+.number {
 	height:100px;
-	border: solid black 10px;
+	width: 100px;
+	border:solid white 2px;
 }
 
 .firstrow{
-	position: absolute;
-	top: 100px;
-	left:300px;
+float:left;
 }
 .secondrow {
-	position: absolute;
-	top:100px;
-	left:410px;
+float:left;
 }
 
 .thirdrow {
-	position: absolute;
-	top:100px;
-	left:520px;
+float:left;
 }
 
 .fourthrow {
-	position: absolute;
-	top:100px;
-	left:630px;
+float:left;
 }
 
 .op {
-	width:100px;
 	height:100px;
-	border: solid black 10px;
+	width: 100px;
+	border:solid white 2px;
+}
+
+#clear {
+float:left;
+height:60px;
+width: 100px;
+border:solid white 2px;
 }
 
 #equals {
-	width:100px;
 	height:100px;
-	border: solid black 10px;
+	width: 100px;
+	border:solid white 2px;
 }
