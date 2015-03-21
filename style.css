@@ -36,3 +36,15 @@
 	top:100px;
 	left:630px;
 }
+
+.op {
+	width:100px;
+	height:100px;
+	border: solid black 10px;
+}
+
+#equals {
+	width:100px;
+	height:100px;
+	border: solid black 10px;
+}
