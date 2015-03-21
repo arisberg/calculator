@@ -12,6 +12,11 @@
 	border:solid black 5px;
 	padding-top:30px;
 	background-color: transparent;
+	transition: font-size 5s;
+}
+
+#display:hover {
+	font-size: 0em;
 }
 
 h2 {
@@ -31,6 +36,11 @@ h2 {
 	height:100px;
 	width: 100px;
 	border:solid white 2px;
+	transition: font-size 5s;
+}
+
+.number:hover {
+	font-size:0em;
 }
 
 .firstrow{
