@@ -3,7 +3,9 @@
 	color:white;
 	font-family: 'Audiowide', cursive; 
 }
-
+body {
+	background-color: black;
+}
 
 #display {
 	width:406px;
@@ -36,11 +38,11 @@ h2 {
 	height:100px;
 	width: 100px;
 	border:solid white 2px;
-	transition: font-size 5s;
+	transition: font-size 2s;
 }
 
 .number:hover {
-	font-size:0em;
+	font-size:2em;
 }
 
 .firstrow{
